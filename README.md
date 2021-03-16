@@ -1,12 +1,12 @@
 # BaiGfe
-Remove Mandatory Login of Geforce Experience - [support: v3.14.x to v3.20.x(current)]
+Remove Mandatory Login of Geforce Experience - [support: 3.21.0.36]
 # How to Remove Mandatory Login  
 
 make a backup of every files you edit !
 
 # Easy copy/paste fix :  
 
-Download pre-moded app.js : [https://github.com/Moyster/BaiGfe/raw/master/app.js](https://github.com/Moyster/BaiGfe/raw/master/app.js)
+Download pre-moded app.js : [https://github.com/GTANAdam/BaiGfe/raw/master/app.js](https://github.com/GTANAdam/BaiGfe/raw/master/app.js)
 
 Copy/paste to :
 
@@ -76,11 +76,11 @@ And replace with this :
 
 \-  find and replace
 
-    X.isShareSupported = !1, X.isShareButtonClicked = !1
+    J.isShareSupported = !1, J.isShareButtonClicked = !1
 
 by
 
-    X.isShareSupported = !0, X.isShareButtonClicked = !0
+    J.isShareSupported = !0, J.isShareButtonClicked = !0
 
 To make the shadowplay & share buttons show on the main GFE screen
 
